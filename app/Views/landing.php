@@ -12,14 +12,14 @@
   </head>
   <body>
     <header class="site-header">
-      <nav class="navbar container" aria-label="Main navigation">
+      <nav class="navbar" aria-label="Main navigation">
         <a class="brand" href="<?= site_url('/') ?>" aria-label="Sebastian POS home"
           ><span class="brand-mark" aria-hidden="true">S</span>Sebastian POS</a
         >
-        <div class="nav-links">
-          <a class="active" aria-current="page" href="<?= site_url('/') ?>">Home</a
-          ><a href="<?= site_url('about') ?>">About</a><a href="<?= site_url('customers') ?>">Customer Accounts</a
-          ><a href="<?= site_url('users') ?>">User Accounts</a>
+        <p class="nav-label">Workspace</p><div class="nav-links">
+          <a class="nav-home active" aria-current="page" href="<?= site_url('/') ?>">Home</a
+          ><a class="nav-about" href="<?= site_url('about') ?>">About</a><a class="nav-customers" href="<?= site_url('customers') ?>">Customers</a
+          ><a class="nav-users" href="<?= site_url('users') ?>">Users</a>
         </div>
       </nav>
     </header>
@@ -41,21 +41,16 @@
             </div>
           </div>
           <aside class="hero-panel" aria-label="System overview">
-            <span class="pill">Dashboard overview</span>
-            <h2>Everything you need, at a glance.</h2>
-            <p>
-              Move quickly between customer records and user accounts from one
-              focused workspace.
-            </p>
-            <div class="status"><i></i>System operational</div>
+            <div class="stat-box"><div><p class="stat-label">Customers</p><a class="stat-link" href="<?= site_url('customers') ?>">View directory &rarr;</a></div><strong class="stat-number">5</strong></div>
+            <div class="stat-box"><div><p class="stat-label">Users</p><a class="stat-link" href="<?= site_url('users') ?>">View directory &rarr;</a></div><strong class="stat-number">6</strong></div>
           </aside>
         </div>
       </section>
       <section class="section container" aria-labelledby="summary-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Quick summary</p>
-            <h2 id="summary-title">Your POS workspace</h2>
+            <p class="eyebrow">At a glance</p>
+            <h2 id="summary-title">System Overview</h2>
           </div>
           <p>Access the core areas of Sebastian POS.</p>
         </div>

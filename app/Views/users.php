@@ -11,9 +11,9 @@
 
 <body>
     <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
+        <nav class="navbar" aria-label="Main navigation">
             <a class="brand" href="<?= site_url('/') ?>" aria-label="Sebastian POS home"><span class="brand-mark" aria-hidden="true">S</span>Sebastian POS</a>
-            <div class="nav-links"><a href="<?= site_url('/') ?>">Home</a><a href="<?= site_url('about') ?>">About</a><a href="<?= site_url('customers') ?>">Customer Accounts</a><a class="active" aria-current="page" href="<?= site_url('users') ?>">User Accounts</a></div>
+            <p class="nav-label">Workspace</p><div class="nav-links"><a class="nav-home" href="<?= site_url('/') ?>">Home</a><a class="nav-about" href="<?= site_url('about') ?>">About</a><a class="nav-customers" href="<?= site_url('customers') ?>">Customers</a><a class="nav-users active" aria-current="page" href="<?= site_url('users') ?>">Users</a></div>
         </nav>
     </header>
     <main class="page-main">
@@ -23,14 +23,14 @@
                     <p class="eyebrow">Team management</p>
                     <h1>User Accounts</h1>
                     <p>View staff identities and assigned roles across the POS system.</p>
-                </div><span class="page-badge">Staff directory</span>
+                </div><span class="page-badge">Total records: 6</span>
             </div>
             <div class="table-card">
                 <div class="table-heading">
                     <div>
                         <h2>User list</h2>
                         <p>Current staff account records</p>
-                    </div><span class="page-badge">Total Users: 5</span>
+                    </div><span class="page-badge">Total Users: 6</span>
                 </div>
                 <div class="table-responsive">
                     <table>

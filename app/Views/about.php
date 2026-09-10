@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,18 +8,19 @@
     <title>About | Sebastian POS</title>
     <link rel="stylesheet" href="<?= base_url('public/css/style.css') ?>">
 </head>
+
 <body>
     <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
+        <nav class="navbar" aria-label="Main navigation">
             <a class="brand" href="<?= site_url('/') ?>" aria-label="Sebastian POS home">
                 <span class="brand-mark" aria-hidden="true">S</span>
                 Sebastian POS
             </a>
-            <div class="nav-links">
-                <a href="<?= site_url('/') ?>">Home</a>
-                <a class="active" aria-current="page" href="<?= site_url('about') ?>">About</a>
-                <a href="<?= site_url('customers') ?>">Customer Accounts</a>
-                <a href="<?= site_url('users') ?>">User Accounts</a>
+            <p class="nav-label">Workspace</p><div class="nav-links">
+                <a class="nav-home" href="<?= site_url('/') ?>">Home</a>
+                <a class="nav-about active" aria-current="page" href="<?= site_url('about') ?>">About</a>
+                <a class="nav-customers" href="<?= site_url('customers') ?>">Customers</a>
+                <a class="nav-users" href="<?= site_url('users') ?>">Users</a>
             </div>
         </nav>
     </header>
@@ -45,6 +47,11 @@
             </div>
         </section>
     </main>
-    <footer><div class="container footer-content"><p>&copy; 2026 Sebastian POS. All rights reserved.</p></div></footer>
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Sebastian POS. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

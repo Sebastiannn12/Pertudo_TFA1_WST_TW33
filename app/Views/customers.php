@@ -11,9 +11,9 @@
 
 <body>
     <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
+        <nav class="navbar" aria-label="Main navigation">
             <a class="brand" href="<?= site_url('/') ?>" aria-label="Sebastian POS home"><span class="brand-mark" aria-hidden="true">S</span>Sebastian POS</a>
-            <div class="nav-links"><a href="<?= site_url('/') ?>">Home</a><a href="<?= site_url('about') ?>">About</a><a class="active" aria-current="page" href="<?= site_url('customers') ?>">Customer Accounts</a><a href="<?= site_url('users') ?>">User Accounts</a></div>
+            <p class="nav-label">Workspace</p><div class="nav-links"><a class="nav-home" href="<?= site_url('/') ?>">Home</a><a class="nav-about" href="<?= site_url('about') ?>">About</a><a class="nav-customers active" aria-current="page" href="<?= site_url('customers') ?>">Customers</a><a class="nav-users" href="<?= site_url('users') ?>">Users</a></div>
         </nav>
     </header>
     <main class="page-main">
@@ -23,7 +23,7 @@
                     <p class="eyebrow">Account management</p>
                     <h1>Customer Accounts</h1>
                     <p>View customer contact information in one organized directory.</p>
-                </div><span class="page-badge">Customer directory</span>
+                </div><span class="page-badge">Total records: 5</span>
             </div>
             <div class="table-card">
                 <div class="table-heading">
