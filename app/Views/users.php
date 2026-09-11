@@ -23,7 +23,7 @@
                     <p class="eyebrow">Team management</p>
                     <h1>User Accounts</h1>
                     <p>View staff identities and assigned roles across the POS system.</p>
-                </div><span class="page-badge">Total records: 6</span>
+                </div>
             </div>
             <div class="table-card">
                 <div class="table-heading">
