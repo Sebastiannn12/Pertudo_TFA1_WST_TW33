@@ -23,7 +23,7 @@
                     <p class="eyebrow">Account management</p>
                     <h1>Customer Accounts</h1>
                     <p>View customer contact information in one organized directory.</p>
-                </div><span class="page-badge">Total records: 5</span>
+                </div>
             </div>
             <div class="table-card">
                 <div class="table-heading">
